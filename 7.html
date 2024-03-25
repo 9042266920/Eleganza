@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eleganza - Elegance in Every Element</title>
+<link rel="stylesheet" href="styles4.css"> <!-- Assuming you have a separate CSS file -->
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <img src="6.jpg" alt="Eleganza Logo" class="logo">
+        <div class="header-text">
+            <h1>ELEGANZA</h1>
+            <h2>Elegance in Every Element</h2>
+        </div>
+    </div>
+</header>
+
+<main>
+<center>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <div class="product-image">
+            <img src="r1.png" width="300" height="240">
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <div class="product-image">
+            <img src="r4.png" width="300" height="240">
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <div class="product-image">
+            <img src="r5.png" width="300" height="240">
+        </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</center>
+<div class="product-info">
+    <center>
+        <h1>GLINTING CIRCLES DIAMOND RING</h1>
+    </center>
+    <hr>
+    <p>Tiny overlapping circles, encrusted with glinting diamonds form an elegant design in this ring crafted in 18 karat rose gold. Stone Clarity: I1/I2.</p>
+    <h2>Price: $304.18</h2>
+    <form action="/submit_form" method="POST">
+        <div class="form-group">
+            <label for="size">Size:</label>
+            <select id="size" name="size" required>
+                <option value="16.40MM">16.40MM</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="weight">Gross Weight:</label>
+            <select id="weight" name="weight" required>
+                <option value="2.049g">2.049g</option>
+            </select>
+        </div>
+        <a href=#><button type="submit">Add to Cart</button></a>
+<button type="button" onclick="window.location.href='5.html'">Buy Now</button>
+
+    </form><br>
+        <img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg">
+<h1>Product Details</h1><br><hr><br>
+<p>This dainty and charming ring is just what you need! Add this timeless piece to your collection and make your work ensembles a graceful affair</p>
+<h3>Specifications</h3>
+<ul>
+<li><b>Brand: </b> Eleganza</li>
+<li><b>Karatage: </b> 18</li>
+<li><b>Material Color: </b> Rose</li>
+<li><b>Jewellery Type: </b> Diamond Jewellery</li>
+<li><b>Number of Diamonds: </b> 15</li>
+<li><b>Diamond Clarity: </b> I1 I2</li>
+<li><b>Diamond Color: </b> G-H</li>
+<li><b>Diamond Shape: </b> Round</li>
+        <img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg">
+<ul class="tabbed-list">
+    <li>Purity guaranteed.</li>
+    <li>Exchange across all stores</li>
+    <li>Free Shipping all across India.</li>
+</ul>
+
+</div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Eleganza. All rights reserved.</p>
+</footer>
+<script src="script1.js"></script>
+</body>
+</html>

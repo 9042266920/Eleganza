@@ -1,0 +1,142 @@
+/* Resetting Default Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.login-section {
+    text-align: center;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.social-login {
+    margin-bottom: 20px;
+}
+
+.social-login .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fb {
+    background-color: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background-color: #55ACEE;
+    color: white;
+}
+
+.google {
+    background-color: #dd4b39;
+    color: white;
+}
+
+.manual-login input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.manual-login input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.manual-login input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #666;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bottom-container {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}

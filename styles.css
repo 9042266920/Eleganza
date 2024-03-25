@@ -1,0 +1,99 @@
+/* Resetting Default Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #2196F3;
+    padding: 10px 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    width: 80%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #0b7dda;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.location-card {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.location-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

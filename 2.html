@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ELEGANZA</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="6.jpg" alt="logo" class="logo">
+            <div class="header-text">
+                <h1>ELEGANZA</h1>
+                <h2>Elegance in Every Element</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-section">
+            <div class="login-container">
+                <h2>Login with Social Media or Manually</h2>
+                <form action="/login" method="POST">
+                    <div class="social-login">
+                        <a href="#" class="fb btn">
+                            <i class="fab fa-facebook-f"></i> Login with Facebook
+                        </a>
+                        <a href="#" class="twitter btn">
+                            <i class="fab fa-twitter"></i> Login with Twitter
+                        </a>
+                        <a href="#" class="google btn">
+                            <i class="fab fa-google"></i> Login with Google
+                        </a>
+                    </div>
+                    <div class="manual-login">
+                        <input type="text" name="username" placeholder="Username" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="bottom-container">
+            <div class="row">
+                <div class="col">
+                    <a href="signup" class="btn">Sign up</a>
+                </div>
+                <div class="col">
+                    <a href="#" class="btn">Forgot password?</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

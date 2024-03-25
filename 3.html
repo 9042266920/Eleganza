@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - ELEGANZA</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+<script>
+function goHome() {
+    window.location.href = "1.html"; // Replace "/" with the URL of your homepage
+}
+</script>
+    <header>
+        <div class="header-container">
+            <img src="6.jpg" alt="logo" class="logo">
+            <div class="header-text">
+                <h1>ELEGANZA</h1>
+                <h2>Elegance in Every Element</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="1.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="3.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="contact-form-section">
+            <div class="contact-form-container">
+                <h3>Contact Us</h3>
+                <form action="/submit_form" method="POST">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country" required>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
+                    </div>
+<button type="button" onclick="goHome()">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ELEGANZA. All rights reserved.</p>
+    </footer>
+</body>
+</html>

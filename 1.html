@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ELEGANZA - Home</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Brannboll+Connect|Freya|Oliver|MoglanDemo" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <div class="header-container">
+            <img src="6.jpg" alt="logo" class="logo">
+            <div class="header-text">
+                <h1>ELEGANZA</h1>
+                <h2>Elegance in Every Element</h2>
+            </div>
+        </div>
+  
+  <nav>
+            <ul class="ul">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a onclick="toggleDropdown()" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="2.html">Log In</a>
+                        <a onclick="document.getElementById('id01').style.display='block'">Sign Up</a>
+                    </div>
+                </li>
+                <li><a href="3.html">Contact</a></li>
+		<li><a href="6.html">Rate</a></li>
+		<li><a href="4.html">Stores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slideshow-container">
+        <img class="mySlides" src="1.jpg" style="width:100%">
+        <img class="mySlides" src="2.jpg" style="width:100%">
+        <img class="mySlides" src="3.jpg" style="width:100%">
+        <img class="mySlides" src="4.jpg" style="width:100%">
+        <img class="mySlides" src="5.jpg" style="width:100%">
+    </section>
+
+    <div class="topnav">
+        <span class="clickable-word"><a class="active" href="#rings">Rings</a></span>
+        <span class="clickable-word"><a href="#earrings">Earrings</a></span>
+        <span class="clickable-word"><a href="#pendants">Pendants</a></span>
+        <span class="clickable-word"><a href="#necklaces">Necklaces</a></span>
+        <span class="clickable-word"><a href="#bangles">Bangles</a></span>
+        <span class="clickable-word"><a href="#bracelets">Bracelets</a></span>
+    </div>
+   
+   <center>
+    <section class="category-section">
+        <h2>SHOP BY CATEGORY</h2>
+        <h3>Browse through your favorite categories. We've got them all!</h3>
+        <img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg">
+        </center>
+
+        <div class="gallery">
+	<div id="rings" class="image-container">
+            <a href="7.html" target="_blank">
+                <img src="r1.png" width="600" height="400">
+            </a>
+	    </div>
+            <div class="desc"><b>Rings</b><br><br>  Explore More ></div>
+        </div>
+        <div class="gallery">
+	<div id="earrings" class="image-container">
+            <a href="video.html" target="_blank">
+                <img src="e1.png" width="600" height="400">
+            </a>
+	    </div>
+            <div class="desc"><b>Earrings</b><br><br>  Explore More ></div>
+        </div>
+        <div class="gallery">
+	<div id="pendants" class="image-container">
+            <a href="video.html" target="_blank">
+                <img src="p1.png" width="600" height="400">
+            </a>
+	  </div>
+            <div class="desc"><b>Pendants</b><br><br>Explore More ></div>
+        </div>
+        <div class="gallery">
+<div id="necklaces" class="image-container">
+            <a href="audio.html" target="_blank">
+                <img src="n1.png" width="600" height="400">
+            </a>
+	    </div>
+            <div class="desc"><b>Necklaces</b><br>Explore More ></div>
+        </div>
+        <div class="gallery">
+	<div id="bangles" class="image-container">
+            <a href="audio.html" target="_blank">
+                <img src="b1.png" width="600" height="400">
+            </a>
+	    </div>
+            <div class="desc"><b>Bangles</b><br>Explore More ></div>
+        </div>
+        <div class="gallery">
+	<div id="bracelets" class="image-container">
+            <a href="audio.html" target="_blank">
+                <img src="br1.png" width="600" height="400">
+            </a>
+	   </div>
+            <div class="desc"><b>Bracelets</b><br>Explore More ></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Useful Links</h3>
+                <p>Delivery Information</p>
+                <p>International Shipping</p>
+                <p>Payment Options</p>
+                <p>Track your Order</p>
+                <p>Returns</p>
+                <p>Find a Store</p>
+            </div>
+            <div class="footer-column">
+                <h3>Policies</h3>
+                <p>Refund Policy</p>
+                <p>Buyback Policy</p>
+                <p>Exchange Policy</p>
+                <p>Cancellation Policy</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Services</p>
+            </div>
+            <div class="footer-column">
+                <h3>Customer Services</h3>
+                <p>care.in@eleganza.com</p>
+                <p>Eleganza Gold&Diamonds</p>
+                <p>Plot No 33, South Car Street, Madurai</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign Up Modal -->
+    <div id="id01" class="modal">
+        <span onclick="closeModal()" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/signup" method="POST">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="closeModal()" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Find all clickable word elements
+            var clickableWords = document.querySelectorAll('.clickable-word');
+            
+            // Loop through each clickable word
+            clickableWords.forEach(function(word) {
+                // Add click event listener to each clickable word
+                word.addEventListener('click', function() {
+                    // Get the target section id from the data-target attribute
+                    var targetId = word.getAttribute('data-target');
+                    // Scroll to the target section
+                    document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
